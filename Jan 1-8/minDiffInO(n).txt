@@ -1,0 +1,16 @@
+Qn)
+Given an unsorted integer array, and without making any assumptions on the numbers in the array:
+Is it possible to find two numbers whose difference is minimum in O(n) time?
+
+Edit: Difference between two numbers a, b is defined as abs(a-b)
+
+
+soln)
+
+Find smallest and largest element in the list. The difference smallest-largest will be minimum.
+If you're looking for nonnegative difference, then this is of course at least as hard as checking if the array has two same elements. 
+This is called element uniqueness problem and without any additional assumptions (like limiting size of integers, allowing other operations than comparison) 
+requires >= n log n time. It is the 1-dimensional case of finding the closest pair of points.
+
+Link)
+https://stackoverflow.com/questions/1669922/is-it-possible-to-find-two-numbers-whose-difference-is-minimum-in-on-time
